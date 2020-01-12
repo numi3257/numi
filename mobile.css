@@ -35,9 +35,9 @@ h1 {
   .photo {
     width: 64x;
     height: 64px;
-    margin: 64px;
-    display : inline-flex;
-    border: 1px solid black;
+    margin: 15px;
+    display : inline-block;
+    border: 1px solid red;
   }
   
   .photo:hover {
