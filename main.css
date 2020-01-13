@@ -37,11 +37,22 @@ hr {
   height: 128px;
 }
 
-.photo:hover {
-  transform: scale(1.02); 
+.bigphoto {
+  position: absolute;
+  width: 0px;
+  -webkit-transition:width 0.3s linear 0s;
+  transition:width 0.3s linear 0s;
+  z-index: 10
+}
+
+.photo:hover + .bigphoto {
+  width: 512px;
+  
+  /*transform: scale(1.02); */
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 p {
   margin: 20px;
+  margin-top: 150px;
 }
