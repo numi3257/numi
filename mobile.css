@@ -36,14 +36,20 @@ body {
 
 }
 
-
-
-hr {
+#big_separator {
   margin-top: 24px;
   margin-bottom: 24px;
   border: 0;
   height: 5px;
   background-image: linear-gradient(to right, rgba(255, 215, 0, 0), rgba(255, 215, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#small_separator {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 0;
+  height: 2px;
+  background-color: gold;
 }
 
 .photo {
