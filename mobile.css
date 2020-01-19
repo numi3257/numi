@@ -105,15 +105,14 @@ p {
 
 #contact_icons {
   margin: auto;
-  width: 208px;
-  height: 64px;
+  width: 158px;
+  height: 48px;
 }
-
 
 .contact_icon {
   width: 32px;
   height: 32px;
-  margin: 16px;
+  margin: 8px;
 }
 
 .contact_icon:hover {
