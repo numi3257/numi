@@ -18,6 +18,7 @@
 }
 
 h4 {
+  font-size: 16px;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #555555;
@@ -37,8 +38,8 @@ body {
 }
 
 #big_gold_separator {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border: 0;
   height: 5px;
   background-image: linear-gradient(to right, rgba(255, 215, 0, 0), rgba(255, 215, 0, 0.75), rgba(0, 0, 0, 0));
@@ -83,22 +84,21 @@ body {
 
 .photo:hover + .bigphoto {
   width: 256px;
-  
-  /*transform: scale(1.02); */
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 p {
+  font-size: 12px;
   margin: 20px;
   color: #555555;
 }
 
 .main {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 #tytul {
-  font-size: 36px;
+  font-family: 'Ewert', serif;
+  font-size: 30px;
   text-align: center;
   color: gold;
 }
