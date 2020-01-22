@@ -1,5 +1,6 @@
 
 .gold {
+  font-family: 'Bitter', serif;
   margin-top: 70px;
   margin-left: 30px;
   color: #555555;
@@ -7,6 +8,7 @@
 }
 
 .silver {
+  font-family: 'Bitter', serif;
   margin-top: 70px;
   margin-left: 30px;
   color: #555555;
@@ -99,7 +101,7 @@ p {
 }
 
 #tytul {
-  font-family: 'Ewert', serif;
+  font-family: 'Ewert', cursive;
   font-size: 30px;
   text-align: center;
   color: gold;
