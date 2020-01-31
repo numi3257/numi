@@ -177,3 +177,8 @@ p {
   height: 100px;
   width: 100px;
 }
+
+.slide > img {
+  width: 100px;
+  height: 100px;
+}
